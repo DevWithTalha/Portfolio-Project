@@ -36,3 +36,5 @@ if (width <= 860){
     setTimeout(showSlides, 2000); // Change image every 2 seconds
   }
 }
+
+document.querySelector(".currentYear").textContent = new Date().getFullYear();
